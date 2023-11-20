@@ -41,7 +41,7 @@ I will create a simple automation test using Katalon Studio for [sistemtoko Webs
 	   >1. Open the website
 	   >2. Click menu login
 	   >3. Input email as example12@gmail.com
-	   >4. Input password as 123546
+	   >4. Input password as abc123
 	   >5. Click button login
 	  - **Expected : will display the error message "Username/Password did not match"**
 
