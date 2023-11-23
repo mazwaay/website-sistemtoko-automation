@@ -4,4 +4,29 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Url website</description>
+      <initValue>'https://sistemtoko.com/'</initValue>
+      <name>Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Email valid</description>
+      <initValue>'wepib42494@bixolabs.com'</initValue>
+      <name>Email_valid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password valid</description>
+      <initValue>'123456'</initValue>
+      <name>Password_valid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Wrong password</description>
+      <initValue>'abc123'</initValue>
+      <name>Wrong_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Wrong email</description>
+      <initValue>'example12@gmail.com'</initValue>
+      <name>Wrong_email</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

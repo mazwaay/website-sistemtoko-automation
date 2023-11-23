@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Forgot Password,Chrome 119.0.0.0,,,2023-11-23 15:43:01,2023-11-23 15:43:25,23.863s,PASSED
+,,,,,,,
+Test Cases/Forgot Password/Test Forgot password with email already registered,Chrome 119.0.0.0,,,2023-11-23 15:43:01,2023-11-23 15:43:15,13.203s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,Open the browser,,2023-11-23 15:43:02,2023-11-23 15:43:03,1.346s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,Maximizing the window browser,,2023-11-23 15:43:03,2023-11-23 15:43:03,0.140s,PASSED
+navigateToUrl(Url),Chrome 119.0.0.0,Navigate to sistemtoko.com,,2023-11-23 15:43:03,2023-11-23 15:43:08,5.048s,PASSED
+"click(findTestObject(""login_repos/login_Page""))",Chrome 119.0.0.0,Click button login page,,2023-11-23 15:43:08,2023-11-23 15:43:10,2.368s,PASSED
+"click(findTestObject(""login_repos/button_forgot_password""))",Chrome 119.0.0.0,Click button forgot password,,2023-11-23 15:43:10,2023-11-23 15:43:11,0.766s,PASSED
+"sendKeys(findTestObject(""login_repos/input_email_forgot_password""), Email_valid)",Chrome 119.0.0.0,Send valid email,,2023-11-23 15:43:11,2023-11-23 15:43:12,0.437s,PASSED
+"click(findTestObject(""forgotPassword_repos/button_send_forgotPassword""))",Chrome 119.0.0.0,Click button forgot password,,2023-11-23 15:43:12,2023-11-23 15:43:14,2.279s,PASSED
+"verifyTextPresent(""Password reminder sent! !"", false)",Chrome 119.0.0.0,Verify password reminder,,2023-11-23 15:43:14,2023-11-23 15:43:14,0.351s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-23 15:43:14,2023-11-23 15:43:15,0.196s,PASSED
+,,,,,,,
+Test Cases/Forgot Password/Test Forgot password with email not registered,Chrome 119.0.0.0,,,2023-11-23 15:43:15,2023-11-23 15:43:25,10.505s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,Open the browser,,2023-11-23 15:43:15,2023-11-23 15:43:15,0.683s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,Maximizing the window browser,,2023-11-23 15:43:15,2023-11-23 15:43:16,0.141s,PASSED
+navigateToUrl(Url),Chrome 119.0.0.0,Navigate to sistemtoko.com,,2023-11-23 15:43:16,2023-11-23 15:43:20,4.993s,PASSED
+"click(findTestObject(""login_repos/login_Page""))",Chrome 119.0.0.0,Click button login page,,2023-11-23 15:43:21,2023-11-23 15:43:22,1.870s,PASSED
+"click(findTestObject(""login_repos/button_forgot_password""))",Chrome 119.0.0.0,Click button forgot password,,2023-11-23 15:43:22,2023-11-23 15:43:23,0.679s,PASSED
+"sendKeys(findTestObject(""login_repos/input_email_forgot_password""), Wrong_email)",Chrome 119.0.0.0,Send wrong email,,2023-11-23 15:43:23,2023-11-23 15:43:24,0.534s,PASSED
+"click(findTestObject(""forgotPassword_repos/button_send_forgotPassword""))",Chrome 119.0.0.0,Click button forgot password,,2023-11-23 15:43:24,2023-11-23 15:43:24,0.901s,PASSED
+"verifyTextPresent(""We can't find a user with that e-mail address. !"", false)",Chrome 119.0.0.0,Verify password reminder,,2023-11-23 15:43:24,2023-11-23 15:43:25,0.335s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-23 15:43:25,2023-11-23 15:43:25,0.220s,PASSED

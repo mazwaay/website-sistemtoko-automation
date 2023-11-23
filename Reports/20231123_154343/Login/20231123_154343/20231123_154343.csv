@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 119.0.0.0,,,2023-11-23 15:43:46,2023-11-23 15:45:16,1m - 30.086s,PASSED
+,,,,,,,
+Test Cases/Login/Login with correct email and correct password,Chrome 119.0.0.0,,,2023-11-23 15:43:46,2023-11-23 15:44:33,46.832s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,Open the browser,,2023-11-23 15:43:46,2023-11-23 15:43:48,1.433s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,Maximizing the window browser,,2023-11-23 15:43:48,2023-11-23 15:43:48,0.138s,PASSED
+navigateToUrl(Url),Chrome 119.0.0.0,Navigate to sistemtoko.com,,2023-11-23 15:43:48,2023-11-23 15:43:53,5.457s,PASSED
+"click(findTestObject(""login_repos/login_Page""))",Chrome 119.0.0.0,Click button login page,,2023-11-23 15:43:53,2023-11-23 15:43:56,2.912s,PASSED
+"sendKeys(findTestObject(""login_repos/input_Email""), Email_valid)",Chrome 119.0.0.0,Input email : wepib42494@bixolabs.com,,2023-11-23 15:43:56,2023-11-23 15:43:57,0.488s,PASSED
+"sendKeys(findTestObject(""login_repos/input_Password""), Password_valid)",Chrome 119.0.0.0,Input password : 123456,,2023-11-23 15:43:57,2023-11-23 15:43:57,0.420s,PASSED
+"click(findTestObject(""login_repos/button_Login""))",Chrome 119.0.0.0,Click login button,,2023-11-23 15:43:57,2023-11-23 15:43:58,0.382s,PASSED
+"waitForElementPresent(findTestObject(""verify_repos/verify_success_login""), 10)",Chrome 119.0.0.0,Verify login is successfully,,2023-11-23 15:43:58,2023-11-23 15:44:33,35.178s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-23 15:44:33,2023-11-23 15:44:33,0.155s,PASSED
+,,,,,,,
+Test Cases/Login/Login with correct email and wrong password,Chrome 119.0.0.0,,,2023-11-23 15:44:33,2023-11-23 15:44:45,11.567s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,Open the browser,,2023-11-23 15:44:33,2023-11-23 15:44:34,0.615s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,Maximizing the window browser,,2023-11-23 15:44:34,2023-11-23 15:44:34,0.126s,PASSED
+navigateToUrl(Url),Chrome 119.0.0.0,Navigate to sistemtoko.com,,2023-11-23 15:44:34,2023-11-23 15:44:39,4.886s,PASSED
+"click(findTestObject(""login_repos/login_Page""))",Chrome 119.0.0.0,Click button login page,,2023-11-23 15:44:39,2023-11-23 15:44:42,3.656s,PASSED
+"sendKeys(findTestObject(""login_repos/input_Email""), Wrong_email)",Chrome 119.0.0.0,Input email : example12@gmail.com,,2023-11-23 15:44:42,2023-11-23 15:44:43,0.444s,PASSED
+"sendKeys(findTestObject(""login_repos/input_Password""), Wrong_password)",Chrome 119.0.0.0,Input password : abc123,,2023-11-23 15:44:43,2023-11-23 15:44:43,0.424s,PASSED
+"click(findTestObject(""login_repos/button_Login""))",Chrome 119.0.0.0,Click login button,,2023-11-23 15:44:43,2023-11-23 15:44:44,0.376s,PASSED
+"verifyTextPresent(""Username/Password did not match"", false)",Chrome 119.0.0.0,,,2023-11-23 15:44:44,2023-11-23 15:44:44,0.781s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-23 15:44:44,2023-11-23 15:44:45,0.197s,PASSED
+,,,,,,,
+Test Cases/Login/Login with wrong email and correct password,Chrome 119.0.0.0,,,2023-11-23 15:44:45,2023-11-23 15:44:55,10.253s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,Open the browser,,2023-11-23 15:44:45,2023-11-23 15:44:45,0.785s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,Maximizing the window browser,,2023-11-23 15:44:45,2023-11-23 15:44:46,0.161s,PASSED
+navigateToUrl(Url),Chrome 119.0.0.0,Navigate to sistemtoko.com,,2023-11-23 15:44:46,2023-11-23 15:44:50,4.813s,PASSED
+"click(findTestObject(""login_repos/login_Page""))",Chrome 119.0.0.0,Click button login page,,2023-11-23 15:44:50,2023-11-23 15:44:52,1.924s,PASSED
+"sendKeys(findTestObject(""login_repos/input_Email""), Email_valid)",Chrome 119.0.0.0,Input email : wepib42494@bixolabs.com,,2023-11-23 15:44:52,2023-11-23 15:44:53,0.572s,PASSED
+"sendKeys(findTestObject(""login_repos/input_Password""), Wrong_password)",Chrome 119.0.0.0,Input password : abc123,,2023-11-23 15:44:53,2023-11-23 15:44:53,0.433s,PASSED
+"click(findTestObject(""login_repos/button_Login""))",Chrome 119.0.0.0,Click login button,,2023-11-23 15:44:53,2023-11-23 15:44:54,0.419s,PASSED
+"verifyTextPresent(""Username/Password did not match"", false)",Chrome 119.0.0.0,,,2023-11-23 15:44:54,2023-11-23 15:44:55,0.806s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-23 15:44:55,2023-11-23 15:44:55,0.187s,PASSED
+,,,,,,,
+Test Cases/Login/Login with wrong email and wrong password,Chrome 119.0.0.0,,,2023-11-23 15:44:55,2023-11-23 15:45:05,10.595s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,Open the browser,,2023-11-23 15:44:55,2023-11-23 15:44:56,0.745s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,Maximizing the window browser,,2023-11-23 15:44:56,2023-11-23 15:44:56,0.133s,PASSED
+navigateToUrl(Url),Chrome 119.0.0.0,Navigate to sistemtoko.com,,2023-11-23 15:44:56,2023-11-23 15:45:01,4.990s,PASSED
+"click(findTestObject(""login_repos/login_Page""))",Chrome 119.0.0.0,Click button login page,,2023-11-23 15:45:01,2023-11-23 15:45:03,2.256s,PASSED
+"sendKeys(findTestObject(""login_repos/input_Email""), Email_valid)",Chrome 119.0.0.0,Input email : wepib42494@bixolabs.com,,2023-11-23 15:45:03,2023-11-23 15:45:03,0.498s,PASSED
+"sendKeys(findTestObject(""login_repos/input_Password""), Wrong_password)",Chrome 119.0.0.0,Input password : abc123,,2023-11-23 15:45:03,2023-11-23 15:45:04,0.419s,PASSED
+"click(findTestObject(""login_repos/button_Login""))",Chrome 119.0.0.0,Click login button,,2023-11-23 15:45:04,2023-11-23 15:45:04,0.411s,PASSED
+"verifyTextPresent(""Username/Password did not match"", false)",Chrome 119.0.0.0,,,2023-11-23 15:45:04,2023-11-23 15:45:05,0.828s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-23 15:45:05,2023-11-23 15:45:05,0.249s,PASSED
+,,,,,,,
+Test Cases/Forgot Password/Test Forgot password with email not registered,Chrome 119.0.0.0,,,2023-11-23 15:45:05,2023-11-23 15:45:16,10.630s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,Open the browser,,2023-11-23 15:45:06,2023-11-23 15:45:06,0.687s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,Maximizing the window browser,,2023-11-23 15:45:06,2023-11-23 15:45:06,0.135s,PASSED
+navigateToUrl(Url),Chrome 119.0.0.0,Navigate to sistemtoko.com,,2023-11-23 15:45:06,2023-11-23 15:45:11,4.817s,PASSED
+"click(findTestObject(""login_repos/login_Page""))",Chrome 119.0.0.0,Click button login page,,2023-11-23 15:45:11,2023-11-23 15:45:13,2.056s,PASSED
+"click(findTestObject(""login_repos/button_forgot_password""))",Chrome 119.0.0.0,Click button forgot password,,2023-11-23 15:45:13,2023-11-23 15:45:14,0.724s,PASSED
+"sendKeys(findTestObject(""login_repos/input_email_forgot_password""), Wrong_email)",Chrome 119.0.0.0,Send wrong email,,2023-11-23 15:45:14,2023-11-23 15:45:15,0.550s,PASSED
+"click(findTestObject(""forgotPassword_repos/button_send_forgotPassword""))",Chrome 119.0.0.0,Click button forgot password,,2023-11-23 15:45:15,2023-11-23 15:45:15,0.955s,PASSED
+"verifyTextPresent(""We can't find a user with that e-mail address. !"", false)",Chrome 119.0.0.0,Verify password reminder,,2023-11-23 15:45:15,2023-11-23 15:45:16,0.353s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-23 15:45:16,2023-11-23 15:45:16,0.199s,PASSED

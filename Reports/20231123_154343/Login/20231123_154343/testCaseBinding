@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Login/Login with correct email and correct password","testCaseId":"Test Cases/Login/Login with correct email and correct password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login with correct email and wrong password","testCaseId":"Test Cases/Login/Login with correct email and wrong password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login with wrong email and correct password","testCaseId":"Test Cases/Login/Login with wrong email and correct password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login with wrong email and wrong password","testCaseId":"Test Cases/Login/Login with wrong email and wrong password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Forgot Password/Test Forgot password with email not registered","testCaseId":"Test Cases/Forgot Password/Test Forgot password with email not registered","iterationVariableName":""}
