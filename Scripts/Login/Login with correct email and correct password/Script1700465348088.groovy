@@ -39,7 +39,7 @@ WebUI.sendKeys(findTestObject('login_repos/input_Password'), GlobalVariable.Pass
 WebUI.click(findTestObject('login_repos/button_Login'))
 
 'Verify login is successfully'
-WebUI.waitForElementPresent(findTestObject('verify_repos/verify_success_login'), 10)
+WebUI.waitForElementPresent(findTestObject('verify_repos/verify_success_login'), 1)
 
 WebUI.closeBrowser()
 
