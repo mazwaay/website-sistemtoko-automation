@@ -64,9 +64,9 @@ I will create a simple automation test using Katalon Studio for [sistemtoko Webs
 	  - **Expected : will display the error message "We can't find a user with that e-mail address. !"**
 
 ## Screen Record
-<img src="https://user-images.githubusercontent.com/42727156/227218971-49909bea-ae57-4c44-b7f7-d68aab03a8c8.mp4" width="50%">
-
+[<img src="https://img.youtube.com/vi/_k8cg9-exqQ/sddefault.jpg" width="680" height="480"
+/>](https://www.youtube.com/embed/_k8cg9-exqQ)
 
 ## Reporting
 
-for reporting [Allure Report](https://swaglabs.netlify.app/#), check this.
+fo [reporting](https://github.com/mazwaay/website-sistemtoko-automation/tree/master/Reports/20231123_154343/Login/20231123_154343), check this.
