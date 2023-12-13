@@ -64,7 +64,7 @@ I will create a simple automation test using Katalon Studio for [sistemtoko Webs
 	  - **Expected : will display the error message "We can't find a user with that e-mail address. !"**
 
 ## Screen Record
-[<img src="https://img.youtube.com/vi/_k8cg9-exqQ/sddefault.jpg" width="680" height="480"
+[<img src="https://img.youtube.com/vi/_k8cg9-exqQ/sddefault.jpg" width="1280" height="720"
 />](https://www.youtube.com/embed/_k8cg9-exqQ)
 
 ## Reporting
